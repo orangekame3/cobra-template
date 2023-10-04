@@ -1,3 +1,4 @@
+// Package cmd is a root command.
 /*
 Copyright © 2023 Takafumi Miyanaga <miya.org.0309@gmail.com>
 
