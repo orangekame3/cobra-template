@@ -50,7 +50,7 @@ winget:
     publisher: orangekame3
     license: "mit"
     copyright: Takafumi Miyanaga
-    short_description: A template for creating a winget package using cobra.
+    short_description: A template for creating package using cobra.
     repository:
       owner: orangekame3
       name: winget-pkgs
