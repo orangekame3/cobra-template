@@ -47,6 +47,8 @@ brews:
 
 winget:
   - name: cobra-template
+  - publisher: orangekame3
+  - license: MIT
     repository:
       owner: orangekame3
       name: winget-pkgs
