@@ -51,7 +51,7 @@ winget:
     license: "mit"
     copyright: Takafumi Miyanaga
     short_description: A template for creating package using cobra.
-    path: manifests/g/orangekame3/cobra-template
+    path: manifests/orangekame3/cobra-template
     repository:
       owner: orangekame3
       name: winget-pkgs
