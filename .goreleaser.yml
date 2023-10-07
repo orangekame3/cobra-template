@@ -44,3 +44,14 @@ brews:
       owner: orangekame3
       name: homebrew-tap
       token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+
+winget:
+  - name: cobra-template
+    publisher: orangekame3
+    license: MIT
+    copyright: Takafumi Miyanaga
+    short_description: Deliver Go binaries as fast and easily as possible
+    repository:
+      owner: orangekame3
+      name: winget-pkgs
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
