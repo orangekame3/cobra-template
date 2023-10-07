@@ -49,6 +49,8 @@ winget:
   - name: cobra-template
   - publisher: orangekame3
   - license: MIT
+  - copyright: Takafumi Miyanaga
+  - description: A template for creating a winget package using cobra.
     repository:
       owner: orangekame3
       name: winget-pkgs
