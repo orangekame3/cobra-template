@@ -19,6 +19,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-package main
+package cmd
 
-const version = "0.0.1"
+import "fmt"
+
+const Version = "0.0.1"
+
+// SetVersionInfo sets version and date to rootCmd
+func SetVersionInfo(version, date string) {
+	rootCmd.Version = fmt.Sprintf("%s (Built on %s)", version, date)
+}
