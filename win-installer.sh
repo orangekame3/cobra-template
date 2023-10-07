@@ -9,7 +9,7 @@ for file in "${FILES[@]}"; do
     curl -L "$BASE_URL/$file" -o "./tmp/$file"
 done
 
-winget install -m ./tmp/orangekame3.cobra-template.yaml
+winget install -m ./tmp/
 
 
 for file in "${FILES[@]}"; do
