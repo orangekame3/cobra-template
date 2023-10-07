@@ -47,10 +47,6 @@ brews:
 
 winget:
   - name: cobra-template
-    publisher: orangekame3
-    license: MIT
-    copyright: Takafumi Miyanaga
-    short_description: Deliver Go binaries as fast and easily as possible
     repository:
       owner: orangekame3
       name: winget-pkgs
